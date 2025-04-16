@@ -12,7 +12,7 @@ public class CorsConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/api/**").allowedOrigins("https://pokemongamewithemail.netlify.app"); //alows to join to 8081 with the /api/ and its mapping
+                registry.addMapping("/api/**").allowedOrigins("https://ericdelgadopokemongamewithemail.netlify.app/"); //alows to join to 8081 with the /api/ and its mapping
             }
         };
     }
